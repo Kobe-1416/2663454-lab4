@@ -15,14 +15,17 @@
     <main>
         <div class="search-container">
             <input type="text" id="country-input" placeholder="Enter country name...">
-            <button id="search-btn">Search</button>
+            <button id="search-btn" onclick="fetchPic()">Search</button>
         </div>
 
         <div id="loading-spinner" class="spinner"></div>
 
         <section id="country-info" class="country-card">
+            
             <!-- Country info will be populated here -->
         </section>
+
+        
 
         <section id="bordering-countries" class="border-grid">
             <!-- Bordering countries will be populated here -->
@@ -31,6 +34,8 @@
         <div id="error-message" class="error"></div>
     </main>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+        
+    </script>
 </body>
 </html>
